@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{8F2AB374-4B62-398D-1BDC-30AB4C507A4F}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ModularVehicles",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
