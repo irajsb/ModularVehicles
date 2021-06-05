@@ -1,0 +1,3 @@
+[submodule "ModularMovementComponent"]
+	path = ModularMovementComponent
+	url = https://github.com/irajsb/ModularMovementComponent
