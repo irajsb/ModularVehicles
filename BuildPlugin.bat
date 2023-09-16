@@ -1,0 +1,1 @@
+D:\WorkSpace\Engine\UE_5.3\Engine\Build\BatchFiles\RunUAT.bat BuildPlugin -Plugin=D:\WorkSpace\PersonalProjects\ModularVehicles\Plugins\MovementComponent\ModularMovement.uplugin -Package=D:\WorkSpace\Package\5.3\ModularMovement\ -Rocket
