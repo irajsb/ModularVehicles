@@ -25,6 +25,11 @@
 		{
 			"Name": "MovieRenderPipeline",
 			"Enabled": true
+		},
+		{
+			"Name": "ModularMovement",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1f5d877874e543e0971dea0d3c9da9ec"
 		}
 	]
 }
