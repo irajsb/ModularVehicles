@@ -3,16 +3,6 @@
 	"EngineAssociation": "5.3",
 	"Category": "",
 	"Description": "",
-	"Modules": [
-		{
-			"Name": "ModularVehicles",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"ModularMovement"
-			]
-		}
-	],
 	"Plugins": [
 		{
 			"Name": "PythonScriptPlugin",
