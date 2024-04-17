@@ -7,7 +7,10 @@
 		{
 			"Name": "ModularVehicles",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"ModularMovement"
+			]
 		}
 	],
 	"Plugins": [
@@ -27,6 +30,11 @@
 			"Name": "ModularMovement",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1f5d877874e543e0971dea0d3c9da9ec"
+		},
+		{
+			"Name": "Oceanology_Plugin",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/c05ddfb639ac41a9b93f619803e2e3f2"
 		}
 	]
 }
