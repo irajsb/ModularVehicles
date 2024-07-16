@@ -19,14 +19,21 @@ if ($version -eq "5.1" -or $version -eq "5.2") {
     Remove-Item "D:\WorkSpace\Package\ModularMovement\Content" -Recurse -Force
 
     # Copy contents from the source to the target folder
-    Copy-Item "D:\WorkSpace\PersonalProjects\ModularVehicle51\Plugins\MovementComponent\Content" -Destination "D:\WorkSpace\Package\ModularMovement\" -Recurse
+    Copy-Item "D:\WorkSpace\PersonalProjects\ModularVehicles\Content5.1" -Destination "D:\WorkSpace\Package\ModularMovement\" -Recurse
+}
+if ($version -eq "5.3") {
+
+       Remove-Item "D:\WorkSpace\Package\ModularMovement\Content" -Recurse -Force
+
+         # Copy contents from the source to the target folder
+    Copy-Item "D:\WorkSpace\PersonalProjects\ModularVehicles\Content5.3" -Destination "D:\WorkSpace\Package\ModularMovement\" -Recurse
 }
 
 
 
 # Remove Binaries and Intermediate folders inside the target folder
 $targetFolder = "D:\WorkSpace\Package\ModularMovement\"
-Remove-Item "$targetFolder\Binaries" -Recurse -Force
+#Remove-Item "$targetFolder\Binaries" -Recurse -Force
 Remove-Item "$targetFolder\Intermediate" -Recurse -Force
 
 # Zip the entire target folder
